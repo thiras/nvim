@@ -7,5 +7,9 @@ return {
       default_direction = "right",
       placement = "edge", -- always at the far right of the editor, not adjacent to current window
     },
+    backends = {
+      ["_"] = { "treesitter", "lsp", "markdown", "man" },
+      toml = { "treesitter" }, -- skip LSP entirely, taplo doesn't provide symbols
+    },
   },
 }
