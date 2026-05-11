@@ -26,6 +26,7 @@ lazy-lock.json       plugin commit pins
 - **[claudecode.nvim](https://github.com/coder/claudecode.nvim)** — Claude Code integration, eager-loaded.
 - **[image.nvim](https://github.com/3rd/image.nvim)** + **[diagram.nvim](https://github.com/3rd/diagram.nvim)** — inline image and Mermaid rendering in the terminal.
 - **[aerial.nvim](https://github.com/stevearc/aerial.nvim)** — symbol outline pinned to the right edge.
+- **[gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim)** — `<leader>gy` yanks a permalink to the line under the cursor; `<leader>gY` opens it in the browser.
 - **snacks explorer** tuned to show dotfiles (`.env`, `.env.*`) while keeping gitignored files hidden.
 - LazyVim extras for Go, Rust, Python, TypeScript, Terraform, Ansible, Helm, Solidity, SQL, Tailwind, Docker, JSON, YAML, TOML, Markdown.
 
